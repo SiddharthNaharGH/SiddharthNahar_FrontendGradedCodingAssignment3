@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+header {
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+#test-details {
+    text-align: center;
+}
+
+.detail {
+    background-color: #cdd857;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+    display: inline-block;
+    margin: 10px;
+    padding: 0.5em;
+    text-align: center;
+    width: 100px;
+}
+
+.detail .title {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.detail .value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#typing-text {
+    background-color: #cdd857;
+    box-shadow: 5px 5px 5px #000;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 300px;
+}
+
+#typing-text .highlight-green {
+    color: #008000;
+}
+
+#typing-text .highlight-red {
+    color: #ff0000;
+}
+
+#user-input {
+    background-color: #f3f4c1;
+    border: none;
+    box-shadow: 5px 5px 5px #000;
+    display: block;
+    outline: none;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+#user-input:focus {
+    border: 1px solid #000;
+}
+
+#user-input:disabled {
+    cursor: not-allowed;
+}
+
+#restart-button-container {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#restart-button-container button {
+    background-color: #376866;
+    border: none;
+    box-shadow: 5px 5px 5px #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0.5em 1em;
+}
+
+#restart-button-container button:hover {
+    background-color: #000;
+}
